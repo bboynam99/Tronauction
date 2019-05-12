@@ -94,7 +94,7 @@ transition-duration: .2s;
 
     @include tablets() {
       font-size: 14px;
-      width: 150px;
+      width: 170px;
       height: 45px;
       text-align: center;
       margin-right: 0;
@@ -156,27 +156,18 @@ transition-duration: .2s;
 .btn-bet-non-active {
   background-image: none;
   border-radius: 30px;
-  background-color: #b70fd8;
+  background-color: #472f99;
+  text-align: center;
+  line-height: 1.2;
 
   &:hover,
   &:active {
     background-image: none;
     border-radius: 30px;
-    background-color: #b70fd8;
+    background-color: #472f99;
   }
 }
 
-.coming-soon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding-bottom: 10px;
-  text-decoration: underline;
-  color: #fff;
-}
 
 
 label.capsule {

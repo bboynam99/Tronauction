@@ -24,8 +24,9 @@
     margin-bottom: 15px;
 
     @include tablets() {
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 10px;
+        line-height: 1.4;
     }
 }
 
@@ -53,11 +54,11 @@
 
     @media screen and (max-width: 1030px) {
         margin-right: 0;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     @include tablets() {
-        min-height: 310px;
+        min-height: 240px;
     }
 }
 
@@ -81,7 +82,7 @@
 
     @include tablets() {
         font-size: 12px;
-        padding: 20px;
+        padding: 15px;
     }
 
     &:after {
@@ -92,6 +93,10 @@
             height: 1px;
             background-color: #53646e;
             margin-top: 5%;
+        }
+
+        @include tablets() {
+            margin-top: 2%;
         }
     }
 
@@ -130,6 +135,10 @@
         width: 98%;
         height: 1px;
         background-color: #53646e;
+
+        @include tablets() {
+            display: none;
+        }
     }
 
     @include tablets() {
@@ -145,7 +154,7 @@
     margin-bottom: 10px;
 
     @include tablets() {
-        margin-bottom: 10px;
+        margin-bottom: 4px;
     }
 }
 
@@ -163,7 +172,7 @@ align-items: center;
 margin-bottom: 17px;
 
 @include tablets() {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     font-size: 20px;
 }
 
@@ -187,8 +196,8 @@ margin-bottom: 17px;
     width: 100%;
 
     @include tablets() {
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
 
@@ -201,7 +210,7 @@ margin-bottom: 17px;
     margin-bottom: 20px;
 
     @include tablets() {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
         font-size: 11px;
     }
 }
@@ -211,6 +220,10 @@ margin-bottom: 17px;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
+
+    @include tablets() {
+        margin-bottom: 10px;
+    }
 }
 
 .tariffs__footer-non-active {

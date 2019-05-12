@@ -20,6 +20,11 @@
         flex-direction: column;
         margin-top: -1em;
     }
+
+    @include tablets() {
+        width: 100%;
+        margin-top: -2em;
+    }
 }
 
 .features__list {
@@ -27,7 +32,7 @@
     align-items: center;
 
     @media screen and (max-width: 675px)  {
-       flex-direction: column;
+       flex-direction: row;
        align-items: center;
        width: 100%;
     }
@@ -40,7 +45,6 @@
     align-items: center;
 
     @include tablets() {
-        margin-bottom: 3%;
     }
 
     &:last-child {
@@ -86,7 +90,7 @@
     margin-right: 39px;
 
     @include tablets() {
-        
+        margin-right: 0;
     }
     
 }

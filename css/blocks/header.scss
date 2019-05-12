@@ -39,15 +39,15 @@
     position: relative;
     width: 60%;
 
+    @include tablets() {
+        width: 100%;
+    }
+
   
 }
 
 .logo-pic {
     width: 100%;
-    @include tablets() {
-        width: 67%;
-        margin-left: 18%;
-    }
 }
 
 .header__features {
