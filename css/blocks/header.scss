@@ -1,7 +1,7 @@
 .header__top {
     display: flex;
     justify-content: space-between;
-    margin-top: 38px;
+    margin-top: 20px;
     position: relative;
     z-index: 10;
 
@@ -34,10 +34,10 @@
 }
 
 .header__main-img-pic {
-    margin-top: -6%;
+    margin-top: -7%;
     z-index: 2;
     position: relative;
-    width: 100%;
+    width: 60%;
 
   
 }
@@ -45,7 +45,12 @@
 .logo-pic {
     width: 100%;
     @include tablets() {
-        width: 85%;
-        margin-left: 3%;
+        width: 67%;
+        margin-left: 18%;
     }
+}
+
+.header__features {
+    display: flex;
+    justify-content: center;
 }

@@ -119,6 +119,7 @@
     width: 410px;
     height: 2px;
     background-image: linear-gradient(to right, #b70fd8, #5631e2);
+    margin-bottom: 22px;
 }
 
 
@@ -126,10 +127,10 @@ td {
     padding: 10px;
 }
 
-td {
-       
+td {  
     border-bottom: 1px solid #607989;
 }
+ 
 
 .tables__content::-webkit-scrollbar-thumb {
     border-radius: 5px;

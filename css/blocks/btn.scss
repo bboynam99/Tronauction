@@ -14,12 +14,12 @@
 }
 
 .btn-rules {
-border: 2px solid #b70fd8;
-padding: 10px;
+
+
 text-transform: uppercase;
 text-decoration: none;
 color: #fff;
-border-radius: 15px;
+
 letter-spacing: 1.7px;
 font-size: 12px;
 font-weight: 500;
@@ -27,7 +27,9 @@ margin-right: 16px;
 transition-duration: .2s;
 
   &:hover {
-    background-image: linear-gradient(to right, #b70fd8, #5631e2);
+    border: 2px solid #b70fd8;
+    padding: 10px;
+    border-radius: 15px;
   }
 
   @include tablets() {
@@ -43,9 +45,12 @@ transition-duration: .2s;
     letter-spacing: 1.7px;
     text-transform: uppercase;
     text-decoration: none;
+    transition-duration: .2s;
 
     &:hover {
-      text-decoration: underline;
+      border: 2px solid #b70fd8;
+      padding: 10px;
+      border-radius: 15px;
     }
 
     @include tablets() {
@@ -109,6 +114,10 @@ transition-duration: .2s;
     font-weight: 500;
     letter-spacing: 3.4px;
     color: #ffffff;
+
+    @include tablets() {
+      font-size: 15px;
+    }
 }
 
 .btn-bet {
@@ -126,6 +135,10 @@ transition-duration: .2s;
     padding: 14px;
     background: url('../img/button-bet.png') center center no-repeat;
     text-decoration: none;
+
+    @include tablets() {
+      font-size: 15px;
+    }
 
     &:hover {
       background-image: none;

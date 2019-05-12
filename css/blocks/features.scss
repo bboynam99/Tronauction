@@ -1,22 +1,24 @@
 .features {
-    max-width: 81.250em;
+    max-width: 60em;
     min-height: 6.000em;
     border-radius: 48px;
     box-shadow: 4.8px 9.9px 18px 0 rgba(0, 0, 0, 0.23);
     background-color: #362863;
-    margin-top: -0.938em;
+    margin-top: -2.938em;
     position: relative;
     z-index: 5;
     
-    padding-top: 0.938em;
-    padding-bottom: 0.938em;
-    padding-left: 2.688em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
     @media screen and (max-width: 950px) {
         flex-direction: column;
+        margin-top: -1em;
     }
 }
 
@@ -42,7 +44,6 @@
     }
 
     &:last-child {
-        margin-left: 2.875em;
 
         @include phones() {
             margin-left: 0;
@@ -68,6 +69,7 @@
         width: 1px;
         height: 60px;
         background-color: #5d4f63;
+        margin-right: 20px;
 
         @media screen and (max-width: 950px) {
            display: none;
