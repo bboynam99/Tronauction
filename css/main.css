@@ -663,7 +663,7 @@ label.capsule {
 
 .tariffs__item {
   width: 100%;
-  min-height: 350px;
+  min-height: 330px;
   border-radius: 5px;
   -webkit-box-shadow: 4.8px 9.9px 18px 0 rgba(0, 0, 0, 0.23);
   box-shadow: 4.8px 9.9px 18px 0 rgba(0, 0, 0, 0.23);
@@ -820,8 +820,7 @@ label.capsule {
   font-weight: 500;
   letter-spacing: 1.6px;
   color: #ffffff;
-  text-transform: uppercase;
-  margin-bottom: 20px; }
+  text-transform: uppercase; }
   @media screen and (max-width: 768px) {
     .tariffs__footer-content {
       margin-bottom: 8px;
