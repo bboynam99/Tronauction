@@ -254,7 +254,7 @@ button {
       background-image: none;
       background-color: #f0a840;
       border-radius: 30px; } }
-  .btn-bet:hover {
+  .btn-bet:hover, .btn-bet:active {
     border-radius: 30px;
     background: -moz-linear-gradient(top, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #fdee96), color-stop(7%, #fdee96), color-stop(47%, #fabf1e), color-stop(100%, #f6d14b));
@@ -263,10 +263,6 @@ button {
     background: -ms-linear-gradient(top, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
     background: -webkit-gradient(linear, left top, left bottom, from(#fdee96), color-stop(7%, #fdee96), color-stop(47%, #fabf1e), to(#f6d14b));
     background: linear-gradient(to bottom, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%); }
-  .btn-bet:active {
-    background-image: none;
-    border-radius: 30px;
-    background-color: #b70fd8; }
 
 .btn-bet-non-active {
   text-align: center;
@@ -663,7 +659,7 @@ label.capsule {
 
 .tariffs__item {
   width: 100%;
-  min-height: 330px;
+  min-height: 320px;
   border-radius: 5px;
   -webkit-box-shadow: 4.8px 9.9px 18px 0 rgba(0, 0, 0, 0.23);
   box-shadow: 4.8px 9.9px 18px 0 rgba(0, 0, 0, 0.23);
