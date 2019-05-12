@@ -514,7 +514,7 @@ label.capsule {
   @media screen and (max-width: 768px) {
     .features {
       width: 100%;
-      margin-top: -2em; } }
+      margin-top: -1.8em; } }
 
 .features__list {
   display: -webkit-box;
