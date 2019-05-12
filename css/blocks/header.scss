@@ -1,0 +1,36 @@
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    position: relative;
+    z-index: 10;
+
+    @include tablets() {
+        justify-content: center;
+    }
+}
+
+.header__top-col-right {
+    display: flex;
+    align-items: center;
+
+    @include tablets() {
+        display: none;
+    }
+}
+
+.header__rules {
+    margin-right: 13px;
+}
+
+.header__main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__main-img-pic {
+    margin-top: -6%;
+    z-index: 2;
+    position: relative;
+}

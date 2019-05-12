@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "TornadoC";
+  src: url("../fonts/TornadoC-Bold.woff") format("woff"), url("../fonts/TornadoC-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "TornadoC";
+  src: url("../fonts/TornadoC.woff") format("woff"), url("../fonts/TornadoC.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "TornadoC";
+  src: url("../fonts/TornadoLightC.woff") format("woff"), url("../fonts/TornadoLightC.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "TornadoC";
+  src: url("../fonts/TornadoMediumC.woff") format("woff"), url("../fonts/TornadoMediumC.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }

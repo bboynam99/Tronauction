@@ -1,0 +1,30 @@
+/* colors */
+
+$yellow: #f9b43b;
+$orange: #e45028;
+
+
+/* breakpoints */
+$tablets: 768px;
+$phones: 480px;
+
+/* normalize */
+@import "layout/normalize.css";
+
+/* media */
+@import "layout/media.scss";
+
+/* base settings */
+@import "layout/base.scss";
+@import "layout/fonts.scss";
+
+
+/* blocks */
+@import "./blocks/btn.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/header.scss";
+@import "./blocks/features.scss";
+@import "./blocks/tariffs.scss";
+@import "./blocks/tables.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/popup.scss";

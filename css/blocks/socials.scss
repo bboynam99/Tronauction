@@ -1,0 +1,40 @@
+.socials__list {
+    display: flex;
+}
+
+.socials__item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #362863;
+    background-image: linear-gradient(to right, #b70fd8, #5631e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    cursor: pointer;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        background-image: none;
+        background-color: #5631e2;
+    }
+}
+
+.socials__item-link-tg {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url('../img/telegram-icon.png') center center no-repeat;
+}
+
+.socials__item-link-twitter {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url('../img/twitter-icon.png') center center no-repeat;
+
+}

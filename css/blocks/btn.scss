@@ -1,0 +1,234 @@
+.btn__socials {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    box-shadow: 0.4px 0.9px 12px 0 rgba(0, 0, 0, 0.4);
+    background-color: red;
+    background-image: linear-gradient(to right, #b70fd8, #5631e2);
+    transition-duration: .2s;
+}
+
+.btn-rules {
+border: 2px solid #b70fd8;
+padding: 10px;
+text-transform: uppercase;
+text-decoration: none;
+color: #fff;
+border-radius: 15px;
+letter-spacing: 1.7px;
+font-size: 12px;
+font-weight: 500;
+margin-right: 16px;
+transition-duration: .2s;
+
+  &:hover {
+    background-image: linear-gradient(to right, #b70fd8, #5631e2);
+  }
+}
+
+.btn-referr {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    width: 300px;
+    height: 61px;
+    padding: 14px;
+    background: url('../img/button-login.png') center center no-repeat;
+    text-decoration: none;
+
+    &:hover {
+      background: none;
+      background-color: #48aeb8;
+      border-radius: 35px;
+    }
+
+    &:active {
+      background: none;
+      background-color: #b70fd8;
+      border-radius: 35px;
+    }
+
+    @media screen and (max-width: 950px) {
+      background: none;
+      background-color: #9ce0e6;
+      border-radius: 35px;
+    }
+
+    @include tablets() {
+      margin-top: 3%;
+    }
+}
+
+.btn-time {
+    width: 148px;
+    height: 55px;
+    background-color: #352162;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 3.4px;
+    color: #ffffff;
+}
+
+.btn-bet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Exo;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    width: 144px;
+    height: 61px;
+    margin-left: 15px;
+    padding: 14px;
+    background: url('../img/button-bet.png') center center no-repeat;
+    text-decoration: none;
+
+    &:hover {
+      background-image: none;
+      border-radius: 30px;
+      background-color: #e7701c;
+    }
+
+    &:active {
+      background-image: none;
+      border-radius: 30px;
+      background-color: #b70fd8;
+    }
+}
+
+.btn-bet-non-active {
+  background-image: none;
+  border-radius: 30px;
+  background-color: #b70fd8;
+
+  &:hover,
+  &:active {
+    background-image: none;
+    border-radius: 30px;
+    background-color: #b70fd8;
+  }
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+label.capsule {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 83px;
+    border: 1px solid rgb(200,200,200);
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #EF9A9A;
+}
+
+// Переключатель языка
+$switchbg:  #362863;
+$white: #fff;
+
+@mixin clearfix {
+	zoom: 1;
+	&:before,
+	&:after {
+		content: " "; /* 1 */
+		display: table; /* 2 */
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.btn-toggle {
+    margin-top: 3%;
+    margin-right: 13px;
+}
+
+
+.switch {
+  background-color: $switchbg;
+  width: 83px;
+  display: inline-block;
+  border-radius: 18px;
+  height: 40px;
+  padding: 2px;
+  position: relative;
+  @include clearfix;
+  label {
+    float: left;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    line-height: 40px;
+    cursor: pointer;
+    color: lighten($switchbg, 30%);
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+    text-align: center;
+  }
+  input[type="radio"]{
+    display: none;
+    &:checked + label {
+      color: $white;
+      font-weight: bold;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 1.7px;
+      text-align: center;
+    }
+  }
+  span {
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    border-radius: 18px;
+    background-image: linear-gradient(to right, #b70fd8, #5631e2);
+    transition: all 200ms ease;
+    &.right {
+      left: 50%;
+      border-radius: 18px;
+      transition: all 200ms ease;
+    }
+  }
+}
