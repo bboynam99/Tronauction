@@ -1,5 +1,9 @@
 .tariffs {
     margin-top: 35px;
+
+    @include tablets() {
+        margin-top: 15px;
+    }
 }
 
 .tariffs__title {
@@ -18,6 +22,11 @@
     -webkit-text-fill-color: transparent;
 
     margin-bottom: 38px;
+
+    @include tablets() {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 }
 
 .tariffs__list {

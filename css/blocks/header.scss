@@ -7,6 +7,10 @@
 
     @include tablets() {
         justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
     }
 }
 
@@ -15,7 +19,7 @@
     align-items: center;
 
     @include tablets() {
-        display: none;
+        
     }
 }
 
@@ -33,4 +37,15 @@
     margin-top: -6%;
     z-index: 2;
     position: relative;
+    width: 100%;
+
+  
+}
+
+.logo-pic {
+    width: 100%;
+    @include tablets() {
+        width: 85%;
+        margin-left: 3%;
+    }
 }

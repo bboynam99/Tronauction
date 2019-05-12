@@ -22,6 +22,11 @@
         background-image: none;
         background-color: #5631e2;
     }
+
+    @include tablets() {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .socials__item-link-tg {
@@ -29,6 +34,11 @@
     height: 20px;
     display: block;
     background: url('../img/telegram-icon.png') center center no-repeat;
+
+    @include tablets() {
+        width: 15px;
+        height: 15px;
+    }
 }
 
 .socials__item-link-twitter {
@@ -36,5 +46,10 @@
     height: 20px;
     display: block;
     background: url('../img/twitter-icon.png') center center no-repeat;
+
+    @include tablets() {
+        width: 15px;
+        height: 15px;
+    }
 
 }

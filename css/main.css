@@ -110,6 +110,10 @@ button {
   -webkit-transition-duration: .2s;
   -o-transition-duration: .2s;
   transition-duration: .2s; }
+  @media screen and (max-width: 768px) {
+    .btn__socials {
+      width: 30px;
+      height: 30px; } }
 
 .btn-rules {
   border: 2px solid #b70fd8;
@@ -130,6 +134,10 @@ button {
     background-image: -webkit-linear-gradient(left, #b70fd8, #5631e2);
     background-image: -o-linear-gradient(left, #b70fd8, #5631e2);
     background-image: linear-gradient(to right, #b70fd8, #5631e2); }
+  @media screen and (max-width: 768px) {
+    .btn-rules {
+      font-size: 10px;
+      padding: 8px; } }
 
 .btn-referr {
   font-size: 12px;
@@ -140,6 +148,9 @@ button {
   text-decoration: none; }
   .btn-referr:hover {
     text-decoration: underline; }
+  @media screen and (max-width: 768px) {
+    .btn-referr {
+      font-size: 10px; } }
 
 .btn-login {
   display: -webkit-box;
@@ -176,7 +187,11 @@ button {
       border-radius: 35px; } }
   @media screen and (max-width: 768px) {
     .btn-login {
-      margin-top: 3%; } }
+      font-size: 14px;
+      width: 150px;
+      height: 45px;
+      text-align: center;
+      margin-top: -4%; } }
 
 .btn-time {
   width: 148px;
@@ -286,6 +301,10 @@ label.capsule {
     /* 2 */ }
   .switch:after {
     clear: both; }
+  @media screen and (max-width: 768px) {
+    .switch {
+      width: 65px;
+      height: 38px; } }
   .switch label {
     float: left;
     width: 50%;
@@ -299,6 +318,9 @@ label.capsule {
     font-weight: 500;
     letter-spacing: 1.7px;
     text-align: center; }
+    @media screen and (max-width: 768px) {
+      .switch label {
+        font-size: 10px; } }
   .switch input[type="radio"] {
     display: none; }
     .switch input[type="radio"]:checked + label {
@@ -308,6 +330,9 @@ label.capsule {
       font-weight: 500;
       letter-spacing: 1.7px;
       text-align: center; }
+      @media screen and (max-width: 768px) {
+        .switch input[type="radio"]:checked + label {
+          font-size: 10px; } }
   .switch span {
     position: relative;
     z-index: 1;
@@ -361,18 +386,30 @@ label.capsule {
   .socials__item:hover {
     background-image: none;
     background-color: #5631e2; }
+  @media screen and (max-width: 768px) {
+    .socials__item {
+      width: 30px;
+      height: 30px; } }
 
 .socials__item-link-tg {
   width: 20px;
   height: 20px;
   display: block;
   background: url("../img/telegram-icon.png") center center no-repeat; }
+  @media screen and (max-width: 768px) {
+    .socials__item-link-tg {
+      width: 15px;
+      height: 15px; } }
 
 .socials__item-link-twitter {
   width: 20px;
   height: 20px;
   display: block;
   background: url("../img/twitter-icon.png") center center no-repeat; }
+  @media screen and (max-width: 768px) {
+    .socials__item-link-twitter {
+      width: 15px;
+      height: 15px; } }
 
 .header__top {
   display: -webkit-box;
@@ -388,7 +425,16 @@ label.capsule {
     .header__top {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
-      justify-content: center; } }
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 15px; } }
 
 .header__top-col-right {
   display: -webkit-box;
@@ -397,9 +443,6 @@ label.capsule {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  @media screen and (max-width: 768px) {
-    .header__top-col-right {
-      display: none; } }
 
 .header__rules {
   margin-right: 13px; }
@@ -418,7 +461,15 @@ label.capsule {
 .header__main-img-pic {
   margin-top: -6%;
   z-index: 2;
-  position: relative; }
+  position: relative;
+  width: 100%; }
+
+.logo-pic {
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    .logo-pic {
+      width: 85%;
+      margin-left: 3%; } }
 
 .features {
   max-width: 81.250em;
@@ -455,12 +506,6 @@ label.capsule {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
-  @media screen and (max-width: 675px) {
-    .features__list {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; } }
 
 .features__item {
   color: #86d9e0;
@@ -508,29 +553,43 @@ label.capsule {
   margin-right: 39px; }
 
 .features__item-bank:before {
-  background: url("../img/bank-icon.png") center center no-repeat; }
+  background: url("../img/bank-icon.png") center center no-repeat;
+  width: 100%; }
 
 .features__item-wins:before {
-  background: url("../img/wins-icon.png") center center no-repeat; }
+  background: url("../img/wins-icon.png") center center no-repeat;
+  width: 100%; }
 
 .features__title {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase; }
+  @media screen and (max-width: 768px) {
+    .features__title {
+      font-size: 13px; } }
 
 .features__number {
   font-size: 30px;
   font-weight: 500; }
+  @media screen and (max-width: 768px) {
+    .features__number {
+      font-size: 20px; } }
 
 .features__value {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 1.7px;
   color: #ffffff; }
+  @media screen and (max-width: 768px) {
+    .features__value {
+      font-size: 10px; } }
 
 .tariffs {
   margin-top: 35px; }
+  @media screen and (max-width: 768px) {
+    .tariffs {
+      margin-top: 15px; } }
 
 .tariffs__title {
   text-align: center;
@@ -550,6 +609,10 @@ label.capsule {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 38px; }
+  @media screen and (max-width: 768px) {
+    .tariffs__title {
+      font-size: 15px;
+      margin-bottom: 10px; } }
 
 .tariffs__list {
   display: -webkit-box;

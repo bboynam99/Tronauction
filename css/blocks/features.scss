@@ -25,7 +25,7 @@
     align-items: center;
 
     @media screen and (max-width: 675px)  {
-        flex-direction: column;
+       
     }
 }
 
@@ -78,10 +78,13 @@
 
 .features__item-bank:before {
 background: url('../img/bank-icon.png') center center no-repeat;
+width: 100%;
 }
 
 .features__item-wins:before {
     background: url('../img/wins-icon.png') center center no-repeat;
+    width: 100%;
+
 }
 
 .features__title {
@@ -89,11 +92,19 @@ background: url('../img/bank-icon.png') center center no-repeat;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
+
+    @include tablets() {
+        font-size: 13px;
+    }
 }
 
 .features__number {
     font-size: 30px;
     font-weight: 500;
+
+    @include tablets() {
+        font-size: 20px;
+    }
 }
 
 .features__value {
@@ -101,4 +112,8 @@ background: url('../img/bank-icon.png') center center no-repeat;
     font-weight: 500;
     letter-spacing: 1.7px;
     color: #ffffff;
+
+    @include tablets() {
+        font-size: 10px;
+    }
 }
