@@ -558,12 +558,10 @@ label.capsule {
   margin-right: 39px; }
 
 .features__item-bank:before {
-  background: url("../img/bank-icon.png") center center no-repeat;
-  width: 100%; }
+  background: url("../img/bank-icon.png") center center no-repeat; }
 
 .features__item-wins:before {
-  background: url("../img/wins-icon.png") center center no-repeat;
-  width: 100%; }
+  background: url("../img/wins-icon.png") center center no-repeat; }
 
 .features__title {
   font-size: 14px;
