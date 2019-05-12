@@ -20,6 +20,9 @@
 
     &-mark {
     color: white;
+    }
 
+    @include tablets() {
+        font-size: 13px;
     }
 }

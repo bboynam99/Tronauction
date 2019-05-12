@@ -13,108 +13,114 @@
 
 <body>
     <div class="wrapper">
-
-        <div class="popup-login">
-            <div class="popup-login__content">
-                <div class="popup-login__top">
-                    <span>LOGIN</span>
-                </div>
-                <div class="separator popup__separator"></div>
-                <div class="popup-login__desc">
-                    <p class="popup-login__text">Please login to your <a href="http://u6.gg/gmc5D"
-                            class="popup-login__text_mark">TRONLink</a> wallet. If you do not have TRONLink wallet
-                        installed please visit <a href="http://u6.gg/gmc5D"
-                            class="popup-login__text_mark">http://u6.gg/gmc5D</a> and download the chrome extension.</p>
-                    <span>TRONS is only availble using Chrome browser for the time being</span>
-                </div>
-
-                <button class="popup-close" type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
-                        height="20px" class="close-icon">
-                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                            d="M12.828,9.999 L18.485,15.656 C19.266,16.437 19.266,17.703 18.485,18.484 C17.704,19.266 16.438,19.266 15.657,18.484 L10.000,12.827 L4.343,18.484 C3.562,19.266 2.296,19.266 1.515,18.484 C0.734,17.703 0.734,16.437 1.515,15.656 L7.172,9.999 L1.515,4.342 C0.734,3.561 0.734,2.295 1.515,1.514 C2.296,0.733 3.562,0.733 4.343,1.514 L10.000,7.171 L15.657,1.514 C16.438,0.733 17.704,0.733 18.485,1.514 C19.266,2.295 19.266,3.561 18.485,4.342 L12.828,9.999 Z" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-
-        <div class="popup-rules">
-            <div class="popup-rules__content">
-                <div class="popup-rules__top">
-                    <span></span>RULES</span>
-                </div>
-                <div class="separator popup__separator"></div>
-                <div class="popup-rules__desc">
-                        <span>If you are at top of the Auction when the timer ends - YOU WIN!</span>
-                        <p class="paragraph"><p class="popup__mark">Auctions</p>
-                                TRON AUCTION has three auctions with different sizes of bets: 20, 100 and 1000 coins,
-                                and timers: 1 minute, 2 minutes, 15 minutes accordingly.
-                                You are able to play in one or several auctions at the same time.
-                        </p>
-                        <p class="paragraph"><p class="popup__mark">How to play</p>
-                                To start playing in Auction, you need to bet.
-                                When the timer ends, the auction leader receives the entire Bank from this auction.
-                        </p>
+        <div class="overlay-login">
+            <div class="popup-login">
+                <div class="popup-login__content">
+                    <div class="popup-login__top">
+                        <span>LOGIN</span>
+                    </div>
+                    <div class="separator popup__separator"></div>
+                    <div class="popup-login__desc">
+                        <p class="popup-login__text">Please login to your <a href="http://u6.gg/gmc5D"
+                                class="popup-login__text_mark">TRONLink</a> wallet. If you do not have TRONLink wallet
+                            installed please visit <a href="http://u6.gg/gmc5D"
+                                class="popup-login__text_mark">http://u6.gg/gmc5D</a> and download the chrome extension.</p>
+                        <span>TRONS is only availble using Chrome browser for the time being</span>
+                    </div>
     
-                        <p class="paragraph"><p class="popup__mark">Initial Bank</p>
-                        Initially, the auction Bank is 50% of the bet.
-                        That is, it is equal to: 20, 100, and 1000 coins, respectively.
-                        </p>
-    
-                        <p class="paragraph"><p class="popup__mark">First bet</p>
-                        When the player has placed the first bet in Auction:
-                        - this player becomes the auction leader,
-                        - the auction timer starts,
-                        - this bet is added to the current Bank.<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star">
-                        <g id="surface1" >
-                        <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
-                        </g>
+                    <button class="popup-close" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
+                            height="20px" class="close-icon">
+                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                d="M12.828,9.999 L18.485,15.656 C19.266,16.437 19.266,17.703 18.485,18.484 C17.704,19.266 16.438,19.266 15.657,18.484 L10.000,12.827 L4.343,18.484 C3.562,19.266 2.296,19.266 1.515,18.484 C0.734,17.703 0.734,16.437 1.515,15.656 L7.172,9.999 L1.515,4.342 C0.734,3.561 0.734,2.295 1.515,1.514 C2.296,0.733 3.562,0.733 4.343,1.514 L10.000,7.171 L15.657,1.514 C16.438,0.733 17.704,0.733 18.485,1.514 C19.266,2.295 19.266,3.561 18.485,4.342 L12.828,9.999 Z" />
                         </svg>
-                        </p>
-    
-                        <p class="paragraph">In the case when there was only one single bet, at the end of the timer the prize will be 150% of the bet.  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star">
-                            <g id="surface1" >
-                            <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
-                            </g>
-                            </svg>
-                        </p>
-    
-                        <p class="paragraph"><p class="popup__mark">Secondary bets</p>
-                        As long as the timer counts down, any player (except the current leader) can also bet.
-                        In this case:
-                        - he becomes the auction leader,
-                        - the auction timer restarts,
-                        - 70% of his bet adds to the new current Bank. <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star">
-                            <g id="surface1" >
-                            <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
-                            </g>
-                            </svg>
-                        </p>
-    
-                        <p class="paragraph"><p class="popup__mark"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star star_left">
-                            <g id="surface1" >
-                            <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
-                            </g>
-                            </svg>Wallet Delay</p>
-                        Remember that the wallet does not process the request immediately, it takes a few seconds.
-                        In the last seconds of the timer, the wallet may not have time to process your bet.
-                        In case when the auction wallet hasn't accepted the bet due to the lack of time, then it will not be withdrawn from your wallet, but you will become the leader of the Auction. 
-                        </p>
-    
-                        <p class="paragraph"><p class="popup__mark">Wallet Commission</p>
-                        TRON wallet takes from each bet a commission of approximately 0.3 coins.
-                        </p>
+                    </button>
                 </div>
-
-                <button class="popup-close popup-close_rules" type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
-                        height="20px" class="close-icon">
-                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
-                            d="M12.828,9.999 L18.485,15.656 C19.266,16.437 19.266,17.703 18.485,18.484 C17.704,19.266 16.438,19.266 15.657,18.484 L10.000,12.827 L4.343,18.484 C3.562,19.266 2.296,19.266 1.515,18.484 C0.734,17.703 0.734,16.437 1.515,15.656 L7.172,9.999 L1.515,4.342 C0.734,3.561 0.734,2.295 1.515,1.514 C2.296,0.733 3.562,0.733 4.343,1.514 L10.000,7.171 L15.657,1.514 C16.438,0.733 17.704,0.733 18.485,1.514 C19.266,2.295 19.266,3.561 18.485,4.342 L12.828,9.999 Z" />
-                    </svg>
-                </button>
             </div>
         </div>
+
+        <div class="overlay-rules">
+            <div class="popup-rules">
+                <div class="popup-rules__content">
+                    <div class="popup-rules__top">
+                        <span></span>RULES</span>
+                    </div>
+                    <div class="separator popup__separator"></div>
+                    <div class="popup-rules__desc">
+                            <span>If you are at top of the Auction when the timer ends - YOU WIN!</span>
+                            <p class="paragraph"><p class="popup__mark">Auctions</p>
+                                    TRON AUCTION has three auctions with different sizes of bets: 20, 100 and 1000 coins,
+                                    and timers: 1 minute, 2 minutes, 15 minutes accordingly.
+                                    You are able to play in one or several auctions at the same time.
+                            </p>
+                            <p class="paragraph"><p class="popup__mark">How to play</p>
+                                    To start playing in Auction, you need to bet.
+                                    When the timer ends, the auction leader receives the entire Bank from this auction.
+                            </p>
+        
+                            <p class="paragraph"><p class="popup__mark">Initial Bank</p>
+                            Initially, the auction Bank is 50% of the bet.
+                            That is, it is equal to: 20, 100, and 1000 coins, respectively.
+                            </p>
+        
+                            <p class="paragraph"><p class="popup__mark">First bet</p>
+                            When the player has placed the first bet in Auction:
+                            - this player becomes the auction leader,
+                            - the auction timer starts,
+                            - this bet is added to the current Bank.<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star">
+                            <g id="surface1" >
+                            <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
+                            </g>
+                            </svg>
+                            </p>
+        
+                            <p class="paragraph">In the case when there was only one single bet, at the end of the timer the prize will be 150% of the bet.  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star">
+                                <g id="surface1" >
+                                <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
+                                </g>
+                                </svg>
+                            </p>
+        
+                            <p class="paragraph"><p class="popup__mark">Secondary bets</p>
+                            As long as the timer counts down, any player (except the current leader) can also bet.
+                            In this case:
+                            - he becomes the auction leader,
+                            - the auction timer restarts,
+                            - 70% of his bet adds to the new current Bank. <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star">
+                                <g id="surface1" >
+                                <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
+                                </g>
+                                </svg>
+                            </p>
+        
+                            <p class="paragraph"><p class="popup__mark"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18pt" height="18pt" viewBox="0 0 18 18" version="1.1" class="star star_left">
+                                <g id="surface1" >
+                                <path style=" stroke:none;fill-rule:nonzero;fill:rgb(97.254902%,83.921569%,30.588235%);fill-opacity:1;" d="M 3.601562 17.550781 L 9.074219 0.601562 L 14.550781 17.550781 L 0.148438 7.050781 L 18 7.050781 Z M 3.601562 17.550781 "/>
+                                </g>
+                                </svg>Wallet Delay</p>
+                            Remember that the wallet does not process the request immediately, it takes a few seconds.
+                            In the last seconds of the timer, the wallet may not have time to process your bet.
+                            In case when the auction wallet hasn't accepted the bet due to the lack of time, then it will not be withdrawn from your wallet, but you will become the leader of the Auction. 
+                            </p>
+        
+                            <p class="paragraph"><p class="popup__mark">Wallet Commission</p>
+                            TRON wallet takes from each bet a commission of approximately 0.3 coins.
+                            </p>
+                    </div>
+    
+                    <button class="popup-close popup-close_rules" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px"
+                            height="20px" class="close-icon">
+                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                d="M12.828,9.999 L18.485,15.656 C19.266,16.437 19.266,17.703 18.485,18.484 C17.704,19.266 16.438,19.266 15.657,18.484 L10.000,12.827 L4.343,18.484 C3.562,19.266 2.296,19.266 1.515,18.484 C0.734,17.703 0.734,16.437 1.515,15.656 L7.172,9.999 L1.515,4.342 C0.734,3.561 0.734,2.295 1.515,1.514 C2.296,0.733 3.562,0.733 4.343,1.514 L10.000,7.171 L15.657,1.514 C16.438,0.733 17.704,0.733 18.485,1.514 C19.266,2.295 19.266,3.561 18.485,4.342 L12.828,9.999 Z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+        
 
     
 

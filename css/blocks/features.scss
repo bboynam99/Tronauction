@@ -45,6 +45,7 @@
     align-items: center;
 
     @include tablets() {
+        width: 50%;
     }
 
     &:last-child {

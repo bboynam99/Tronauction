@@ -545,6 +545,9 @@ label.capsule {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 768px) {
+    .features__item {
+      width: 50%; } }
   @media screen and (max-width: 480px) {
     .features__item:last-child {
       margin-left: 0; } }
@@ -901,11 +904,17 @@ label.capsule {
   @media screen and (max-width: 480px) {
     .tables__content {
       width: 100%; } }
+  @media screen and (max-width: 768px) {
+    .tables__content {
+      font-size: 15px; } }
 
 .tables__time {
   color: #607989;
   font-size: 16px;
   width: 5%; }
+  @media screen and (max-width: 768px) {
+    .tables__time {
+      font-size: 13px; } }
 
 .tables__name {
   width: 60%; }
@@ -935,6 +944,9 @@ label.capsule {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .tables__title {
+      font-size: 15px; } }
   .tables__title_bets:after {
     content: "";
     display: block;
@@ -1011,6 +1023,9 @@ td {
   color: white; }
   .footer__text-mark {
     color: white; }
+  @media screen and (max-width: 768px) {
+    .footer__text {
+      font-size: 13px; } }
 
 .popup-login {
   display: none;
@@ -1060,6 +1075,10 @@ td {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 768px) {
+    .popup-login__content {
+      width: 400px;
+      padding: 25px; } }
 
 .popup-login__top {
   font-size: 18px;
@@ -1068,6 +1087,9 @@ td {
   color: #ffffff;
   text-align: center;
   margin-bottom: 28px; }
+  @media screen and (max-width: 768px) {
+    .popup-login__top {
+      margin-bottom: 15px; } }
 
 .popup__separator {
   width: 100%; }
@@ -1080,12 +1102,20 @@ td {
   color: #ffffff;
   margin-top: 27px;
   line-height: 2em; }
+  @media screen and (max-width: 768px) {
+    .popup-login__desc {
+      font-size: 14px;
+      text-align: left; } }
 
 .popup-close {
   position: relative;
   cursor: pointer;
-  top: -200px;
+  top: -220px;
   right: -356px; }
+  @media screen and (max-width: 768px) {
+    .popup-close {
+      top: -265px;
+      right: -177px; } }
 
 .popup-login__text_mark {
   text-decoration: underline;
@@ -1138,6 +1168,11 @@ td {
   -ms-flex-align: center;
   align-items: center;
   margin-top: -10%; }
+  @media screen and (max-width: 768px) {
+    .popup-rules__content {
+      width: 400px;
+      padding: 25px;
+      margin-top: -80%; } }
 
 .popup-rules__top {
   font-size: 18px;
@@ -1146,6 +1181,9 @@ td {
   color: #ffffff;
   text-align: center;
   margin-bottom: 28px; }
+  @media screen and (max-width: 768px) {
+    .popup-rules__top {
+      margin-bottom: 11px; } }
 
 .popup-rules__desc {
   max-width: 700px;
@@ -1155,9 +1193,15 @@ td {
   color: #ffffff;
   margin-top: 27px;
   line-height: 2em; }
+  @media screen and (max-width: 768px) {
+    .popup-rules__desc {
+      margin-top: 0px; } }
 
 .popup-close_rules {
-  top: -1061px; }
+  top: -1085px; }
+  @media screen and (max-width: 768px) {
+    .popup-close_rules {
+      top: -1465px; } }
 
 .star {
   display: -webkit-inline-box;
