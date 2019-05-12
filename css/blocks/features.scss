@@ -58,8 +58,8 @@
     &:before {
         content: "";
         display: block;
-        width: 3.750em;
-        height: 2.875em;
+        width: 3em;
+        height: 3.5em;
         margin-right: 1.000em;
 
         @include tablets() {

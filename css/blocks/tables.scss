@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 4%;
+    padding-top: 2%;
     
 
     &:last-child {
@@ -34,6 +34,10 @@
         width: 100%;
         margin-right: 0;
         margin-bottom: 5%;
+    }
+
+    @include tablets() {
+        padding-top: 3%;
     }
 }
 
@@ -135,6 +139,10 @@
 
     @include tablets() {
         max-width: 350px;
+    }
+
+    @include phones() {
+        max-width: 300px;
     }
 }
 
