@@ -1267,7 +1267,7 @@ td {
   text-align: left;
   color: #ffffff;
   margin-top: 27px;
-  line-height: 2em; }
+  line-height: 1.4em; }
   @media screen and (max-width: 768px) {
     .popup-rules__desc {
       margin-top: 0px; } }

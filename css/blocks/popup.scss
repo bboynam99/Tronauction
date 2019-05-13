@@ -142,6 +142,7 @@
     justify-content: center;
     align-items: center;
 
+
     margin-top: -10%;
 
 
@@ -187,7 +188,7 @@
     text-align: left;
     color: #ffffff;
     margin-top: 27px;
-    line-height: 2em;
+    line-height: 1.4em;
 
     @include tablets() {
         margin-top: 0px;
@@ -265,6 +266,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 
     @include tablets() {
         width: 400px;
