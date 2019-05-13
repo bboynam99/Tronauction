@@ -35,7 +35,7 @@ transition-duration: .2s;
   @include tablets() {
     font-size: 10px;
     padding: 8px;
-    margin-right: 4px;
+    margin-right: 2px;
   }
 }
 
@@ -153,6 +153,7 @@ transition-duration: .2s;
     padding: 14px;
     background: url('../img/button-bet.png') center center no-repeat;
     text-decoration: none;
+    cursor: pointer;
 
     @include tablets() {
       font-size: 15px;
@@ -162,14 +163,14 @@ transition-duration: .2s;
       width: 110px;
       height: 40px;
       text-align: center;
-      background-image: none;
-      background: -moz-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
-      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,238,150,1)), color-stop(7%, rgba(253,238,150,1)), color-stop(47%, rgba(250,191,30,1)), color-stop(100%, rgba(246,209,75,1)));
-      background: -webkit-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
-      background: -o-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
-      background: -ms-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
-      background: linear-gradient(to bottom, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
+      background: rgba(247,196,87,1);
       border-radius: 30px;
+      background: -moz-linear-gradient(top, rgba(247,196,87,1) 0%, rgba(246,209,117,1) 20%, rgba(239,159,53,1) 62%, rgba(240,159,54,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,196,87,1)), color-stop(20%, rgba(246,209,117,1)), color-stop(62%, rgba(239,159,53,1)), color-stop(100%, rgba(240,159,54,1)));
+      background: -webkit-linear-gradient(top, rgba(247,196,87,1) 0%, rgba(246,209,117,1) 20%, rgba(239,159,53,1) 62%, rgba(240,159,54,1) 100%);
+      background: -o-linear-gradient(top, rgba(247,196,87,1) 0%, rgba(246,209,117,1) 20%, rgba(239,159,53,1) 62%, rgba(240,159,54,1) 100%);
+      background: -ms-linear-gradient(top, rgba(247,196,87,1) 0%, rgba(246,209,117,1) 20%, rgba(239,159,53,1) 62%, rgba(240,159,54,1) 100%);
+      background: linear-gradient(to bottom, rgba(247,196,87,1) 0%, rgba(246,209,117,1) 20%, rgba(239,159,53,1) 62%, rgba(240,159,54,1) 100%);
     }
 
     &:hover,
@@ -225,6 +226,10 @@ $white: #fff;
 .btn-toggle {
     margin-top: 3%;
     margin-right: 13px;
+
+    @include tablets() {
+      margin-right: 5px;
+    }
 }
 
 

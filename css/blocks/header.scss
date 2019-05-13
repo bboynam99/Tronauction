@@ -27,7 +27,8 @@
     margin-right: 13px;
     
     @include tablets() {
-        margin-right: 4px;
+        margin-right: 2px;
+        display: flex;
     }
 }
 
