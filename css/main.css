@@ -1232,17 +1232,17 @@ td {
       margin-top: -70%; } }
   @media screen and (max-width: 950px) {
     .popup-rules__content {
-      margin-top: -148%; } }
+      margin-top: -138%; } }
   @media screen and (max-width: 768px) {
     .popup-rules__content {
       width: 550px;
       padding: 25px;
-      margin-top: -150%; } }
+      margin-top: -200%; } }
   @media screen and (max-width: 480px) {
     .popup-rules__content {
       width: 330px;
       padding: 20px;
-      margin-top: -277%; } }
+      margin-top: -300%; } }
 
 .popup-rules__top {
   font-size: 18px;
