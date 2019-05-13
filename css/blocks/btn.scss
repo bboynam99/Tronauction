@@ -227,9 +227,7 @@ $white: #fff;
     margin-top: 3%;
     margin-right: 13px;
 
-    @include tablets() {
-      margin-right: 5px;
-    }
+    @include tablets() {}
 }
 
 

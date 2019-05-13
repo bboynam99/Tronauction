@@ -305,9 +305,6 @@ label.capsule {
 .btn-toggle {
   margin-top: 3%;
   margin-right: 13px; }
-  @media screen and (max-width: 768px) {
-    .btn-toggle {
-      margin-right: 5px; } }
 
 .switch {
   background-color: #362863;
