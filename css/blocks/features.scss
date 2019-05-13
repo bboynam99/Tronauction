@@ -25,6 +25,10 @@
         width: 100%;
         margin-top: -1.8em;
     }
+
+    @include phones(){
+        margin-top: -1.5em;
+    }
 }
 
 .features__list {

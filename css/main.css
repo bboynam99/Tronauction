@@ -263,8 +263,15 @@ button {
     .btn-bet {
       width: 110px;
       height: 40px;
+      text-align: center;
       background-image: none;
-      background-color: #f0a840;
+      background: -moz-linear-gradient(top, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, #fdee96), color-stop(7%, #fdee96), color-stop(47%, #fabf1e), color-stop(100%, #f6d14b));
+      background: -webkit-linear-gradient(top, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
+      background: -o-linear-gradient(top, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
+      background: -ms-linear-gradient(top, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
+      background: -webkit-gradient(linear, left top, left bottom, from(#fdee96), color-stop(7%, #fdee96), color-stop(47%, #fabf1e), to(#f6d14b));
+      background: linear-gradient(to bottom, #fdee96 0%, #fdee96 7%, #fabf1e 47%, #f6d14b 100%);
       border-radius: 30px; } }
   .btn-bet:hover, .btn-bet:active {
     border-radius: 30px;
@@ -279,7 +286,7 @@ button {
 .btn-bet-non-active {
   text-align: center;
   line-height: 1.2;
-  padding: 11px; }
+  padding: 13px; }
 
 label.capsule {
   display: -webkit-inline-box;
@@ -527,6 +534,9 @@ label.capsule {
     .features {
       width: 100%;
       margin-top: -1.8em; } }
+  @media screen and (max-width: 480px) {
+    .features {
+      margin-top: -1.5em; } }
 
 .features__list {
   display: -webkit-box;

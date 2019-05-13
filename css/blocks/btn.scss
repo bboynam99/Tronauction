@@ -161,8 +161,14 @@ transition-duration: .2s;
     @include phones() {
       width: 110px;
       height: 40px;
+      text-align: center;
       background-image: none;
-      background-color: #f0a840;
+      background: -moz-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(253,238,150,1)), color-stop(7%, rgba(253,238,150,1)), color-stop(47%, rgba(250,191,30,1)), color-stop(100%, rgba(246,209,75,1)));
+      background: -webkit-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
+      background: -o-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
+      background: -ms-linear-gradient(top, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
+      background: linear-gradient(to bottom, rgba(253,238,150,1) 0%, rgba(253,238,150,1) 7%, rgba(250,191,30,1) 47%, rgba(246,209,75,1) 100%);
       border-radius: 30px;
     }
 
@@ -184,7 +190,7 @@ transition-duration: .2s;
 .btn-bet-non-active {
   text-align: center;
   line-height: 1.2;
-  padding: 11px;
+  padding: 13px;
 
 }
 
