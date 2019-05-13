@@ -130,7 +130,7 @@ button {
     border-radius: 15px; }
     @media screen and (max-width: 768px) {
       .btn-rules:hover {
-        padding: 5px; } }
+        padding: 3px; } }
   @media screen and (max-width: 768px) {
     .btn-rules {
       font-size: 10px;
@@ -154,7 +154,7 @@ button {
     border-radius: 15px; }
     @media screen and (max-width: 768px) {
       .btn-referr:hover {
-        padding: 5px; } }
+        padding: 3px; } }
   @media screen and (max-width: 768px) {
     .btn-referr {
       font-size: 10px;
