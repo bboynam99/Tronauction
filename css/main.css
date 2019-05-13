@@ -1285,8 +1285,11 @@ td {
       right: -190px; } }
   @media screen and (max-width: 480px) {
     .popup-close_rules {
-      top: -777px;
+      top: -787px;
       right: -138px; } }
+  @media only screen and (max-width: 320px) {
+    .popup-close_rules {
+      top: -810px; } }
 
 .star {
   display: -webkit-inline-box;
