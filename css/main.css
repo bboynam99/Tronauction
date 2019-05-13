@@ -120,12 +120,13 @@ button {
   font-weight: 500;
   margin-right: 16px;
   -moz-backface-visibility: hidden;
-  border: transparent;
+  border: 1px solid transparent;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 15px; }
   .btn-rules:hover {
     border: 2px solid #b70fd8;
-    padding: 10px;
     border-radius: 15px; }
     @media screen and (max-width: 768px) {
       .btn-rules:hover {
@@ -143,12 +144,13 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   -moz-backface-visibility: hidden;
+  border: 1px solid transparent;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border: transparent; }
+  padding: 10px;
+  border-radius: 15px; }
   .btn-referr:hover {
     border: 2px solid #b70fd8;
-    padding: 10px;
     border-radius: 15px; }
     @media screen and (max-width: 768px) {
       .btn-referr:hover {
@@ -1237,7 +1239,10 @@ td {
     .popup-rules__content {
       width: 550px;
       padding: 25px;
-      margin-top: -200%; } }
+      margin-top: -160%; } }
+  @media screen and (max-width: 583px) {
+    .popup-rules__content {
+      width: 430px; } }
   @media screen and (max-width: 480px) {
     .popup-rules__content {
       width: 330px;
@@ -1273,7 +1278,16 @@ td {
   top: -810px; }
   @media screen and (max-width: 768px) {
     .popup-close_rules {
-      top: -1465px; } }
+      top: -870px;
+      right: -257px; } }
+  @media screen and (max-width: 583px) {
+    .popup-close_rules {
+      top: -1003px;
+      right: -190px; } }
+  @media screen and (max-width: 480px) {
+    .popup-close_rules {
+      top: -772px;
+      right: -143px; } }
 
 .star {
   display: -webkit-inline-box;

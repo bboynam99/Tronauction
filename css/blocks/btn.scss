@@ -22,12 +22,14 @@ font-size: 12px;
 font-weight: 500;
 margin-right: 16px;
 -moz-backface-visibility: hidden;
-border: transparent;
+border: 1px solid transparent;
 box-sizing: border-box;
+padding: 10px;
+border-radius: 15px;
 
   &:hover {
     border: 2px solid #b70fd8;
-    padding: 10px;
+    
     border-radius: 15px;
 
     @include tablets() {
@@ -50,12 +52,15 @@ box-sizing: border-box;
     text-transform: uppercase;
     text-decoration: none;
     -moz-backface-visibility: hidden;
+    
+    border: 1px solid transparent;
     box-sizing: border-box;
-    border: transparent;
+    padding: 10px;
+    border-radius: 15px;
 
     &:hover {
       border: 2px solid #b70fd8;
-      padding: 10px;
+     
       border-radius: 15px;
 
       @include tablets() {
