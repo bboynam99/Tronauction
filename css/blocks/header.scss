@@ -23,6 +23,12 @@
     }
 }
 
+.header__top-col-right {
+    @include phones() {
+        margin-top: 2%;
+    }
+}
+
 .header__rules {
     margin-right: 13px;
     
@@ -50,6 +56,10 @@
 
 
   
+}
+
+.logo {
+    margin-right: -15%;
 }
 
 .logo-pic {

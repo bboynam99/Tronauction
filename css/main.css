@@ -468,6 +468,10 @@ label.capsule {
     .header__top-col-right {
       margin-bottom: 2%; } }
 
+@media screen and (max-width: 480px) {
+  .header__top-col-right {
+    margin-top: 2%; } }
+
 .header__rules {
   margin-right: 13px; }
   @media screen and (max-width: 768px) {
@@ -493,6 +497,9 @@ label.capsule {
   @media screen and (max-width: 768px) {
     .header__main-img-pic {
       width: 100%; } }
+
+.logo {
+  margin-right: -15%; }
 
 .logo-pic {
   width: 100%; }
@@ -1274,9 +1281,6 @@ td {
   @media screen and (max-width: 768px) {
     .popup-close_rules {
       top: -1465px; } }
-  @media screen and (max-width: 480px) {
-    .popup-close_rules {
-      top: -1115px; } }
 
 .star {
   display: -webkit-inline-box;
