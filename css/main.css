@@ -120,17 +120,17 @@ button {
   font-weight: 500;
   margin-right: 16px;
   -moz-backface-visibility: hidden;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 15px; }
   .btn-rules:hover {
-    border: 2px solid #b70fd8;
+    border: 1px solid #b70fd8;
     border-radius: 15px; }
     @media screen and (max-width: 768px) {
       .btn-rules:hover {
-        padding: 3px; } }
+        padding: 5px; } }
   @media screen and (max-width: 768px) {
     .btn-rules {
       font-size: 10px;
@@ -144,17 +144,17 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   -moz-backface-visibility: hidden;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 15px; }
   .btn-referr:hover {
-    border: 2px solid #b70fd8;
+    border: 1px solid #b70fd8;
     border-radius: 15px; }
     @media screen and (max-width: 768px) {
       .btn-referr:hover {
-        padding: 3px; } }
+        padding: 5px; } }
   @media screen and (max-width: 768px) {
     .btn-referr {
       font-size: 10px;
