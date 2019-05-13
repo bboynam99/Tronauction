@@ -35,7 +35,7 @@ transition-duration: .2s;
   @include tablets() {
     font-size: 10px;
     padding: 8px;
-    margin-right: 2px;
+    margin-right: 4px;
   }
 }
 
@@ -226,8 +226,6 @@ $white: #fff;
 .btn-toggle {
     margin-top: 3%;
     margin-right: 13px;
-
-    @include tablets() {}
 }
 
 
