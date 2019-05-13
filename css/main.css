@@ -120,7 +120,7 @@ button {
   font-weight: 500;
   margin-right: 16px;
   -moz-backface-visibility: hidden;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
@@ -144,7 +144,7 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   -moz-backface-visibility: hidden;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
@@ -1282,11 +1282,11 @@ td {
       right: -257px; } }
   @media screen and (max-width: 583px) {
     .popup-close_rules {
-      top: -1003px;
+      top: -950px;
       right: -190px; } }
   @media screen and (max-width: 480px) {
     .popup-close_rules {
-      top: -772px;
+      top: -765px;
       right: -143px; } }
 
 .star {
