@@ -151,19 +151,21 @@
     }
 
     @media screen and (max-width: 950px) {
-        margin-top: -138%;
+        margin-top: -148%;
     }
 
     @include tablets() {
-    width: 400px;
+    width: 550px;
     padding: 25px;
-    margin-top: -80%;
+    margin-top: -150%;
     }
 
+
+
     @include phones() {
-        width: 300px;
+        width: 330px;
         padding: 20px;
-        margin-top: -200%;
+        margin-top: -277%;
     }
 
 

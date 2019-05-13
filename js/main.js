@@ -9,7 +9,6 @@ $('.switch label').on('click', function(){
     }
   });
 
-
 // Окно - логин 
 
 const openBtn = document.querySelector('.btn-login');
@@ -146,7 +145,7 @@ openBtnRules.addEventListener('click', function () {
         setTimeout(function fooC() {
             if (opacity > 0) {
                 opacity -= 0.2;
-                popupRules.style.opacity = opacity;
+                popupRules.style.opacityRules = opacityRules;
                 setTimeout(fooC, 80);
             } else {
     
@@ -217,7 +216,7 @@ betBtn.addEventListener('click', function () {
             setTimeout(function fooC() {
                 if (opacityBet > 0) {
                     opacityBet -= 0.2;
-                    popupBet.style.opacity = opacityBet;
+                    popupBet.style.opacityBet = opacityBet;
                     setTimeout(fooC, 80);
                 } else {
         
@@ -231,8 +230,4 @@ betBtn.addEventListener('click', function () {
     
     
     });
-
-
-
-
 

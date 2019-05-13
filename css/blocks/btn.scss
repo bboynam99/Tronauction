@@ -24,7 +24,6 @@ margin-right: 16px;
 -moz-backface-visibility: hidden;
 border: transparent;
 box-sizing: border-box;
-transition-duration: .2s;
 
   &:hover {
     border: 2px solid #b70fd8;
@@ -53,7 +52,6 @@ transition-duration: .2s;
     -moz-backface-visibility: hidden;
     box-sizing: border-box;
     border: transparent;
-    transition-duration: .2s;
 
     &:hover {
       border: 2px solid #b70fd8;
@@ -305,3 +303,5 @@ $white: #fff;
     }
   }
 }
+
+

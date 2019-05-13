@@ -122,10 +122,7 @@ button {
   -moz-backface-visibility: hidden;
   border: transparent;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition-duration: .2s;
-  -o-transition-duration: .2s;
-  transition-duration: .2s; }
+  box-sizing: border-box; }
   .btn-rules:hover {
     border: 2px solid #b70fd8;
     padding: 10px;
@@ -148,10 +145,7 @@ button {
   -moz-backface-visibility: hidden;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  border: transparent;
-  -webkit-transition-duration: .2s;
-  -o-transition-duration: .2s;
-  transition-duration: .2s; }
+  border: transparent; }
   .btn-referr:hover {
     border: 2px solid #b70fd8;
     padding: 10px;
@@ -1238,17 +1232,17 @@ td {
       margin-top: -70%; } }
   @media screen and (max-width: 950px) {
     .popup-rules__content {
-      margin-top: -138%; } }
+      margin-top: -148%; } }
   @media screen and (max-width: 768px) {
     .popup-rules__content {
-      width: 400px;
+      width: 550px;
       padding: 25px;
-      margin-top: -80%; } }
+      margin-top: -150%; } }
   @media screen and (max-width: 480px) {
     .popup-rules__content {
-      width: 300px;
+      width: 330px;
       padding: 20px;
-      margin-top: -200%; } }
+      margin-top: -277%; } }
 
 .popup-rules__top {
   font-size: 18px;
