@@ -130,10 +130,12 @@ button {
     border: 2px solid #b70fd8;
     padding: 10px;
     border-radius: 15px; }
+    @media screen and (max-width: 768px) {
+      .btn-rules:hover {
+        padding: 5px; } }
   @media screen and (max-width: 768px) {
     .btn-rules {
       font-size: 10px;
-      padding: 8px;
       margin-right: 4px; } }
 
 .btn-referr {
@@ -154,9 +156,13 @@ button {
     border: 2px solid #b70fd8;
     padding: 10px;
     border-radius: 15px; }
+    @media screen and (max-width: 768px) {
+      .btn-referr:hover {
+        padding: 5px; } }
   @media screen and (max-width: 768px) {
     .btn-referr {
-      font-size: 10px; } }
+      font-size: 10px;
+      padding: 2px; } }
 
 .btn-login {
   display: -webkit-box;
@@ -466,7 +472,7 @@ label.capsule {
   margin-right: 13px; }
   @media screen and (max-width: 768px) {
     .header__rules {
-      margin-right: 2px; } }
+      margin-right: 15px; } }
 
 .header__main-img {
   display: -webkit-box;
@@ -1120,6 +1126,10 @@ td {
     .popup-login__content {
       width: 400px;
       padding: 25px; } }
+  @media screen and (max-width: 480px) {
+    .popup-login__content {
+      width: 300px;
+      padding: 20px; } }
 
 .popup-login__top {
   font-size: 18px;
@@ -1147,6 +1157,9 @@ td {
     .popup-login__desc {
       font-size: 14px;
       text-align: left; } }
+  @media screen and (max-width: 480px) {
+    .popup-login__desc {
+      font-size: 12px; } }
 
 .popup-close {
   position: relative;
@@ -1157,6 +1170,10 @@ td {
     .popup-close {
       top: -265px;
       right: -177px; } }
+  @media screen and (max-width: 480px) {
+    .popup-close {
+      top: -245px;
+      right: -125px; } }
 
 .popup-login__text_mark {
   text-decoration: underline;
@@ -1220,6 +1237,11 @@ td {
       width: 400px;
       padding: 25px;
       margin-top: -80%; } }
+  @media screen and (max-width: 480px) {
+    .popup-rules__content {
+      width: 300px;
+      padding: 20px;
+      margin-top: -170%; } }
 
 .popup-rules__top {
   font-size: 18px;
@@ -1243,12 +1265,18 @@ td {
   @media screen and (max-width: 768px) {
     .popup-rules__desc {
       margin-top: 0px; } }
+  @media screen and (max-width: 480px) {
+    .popup-rules__desc {
+      font-size: 12px; } }
 
 .popup-close_rules {
   top: -1085px; }
   @media screen and (max-width: 768px) {
     .popup-close_rules {
       top: -1465px; } }
+  @media screen and (max-width: 480px) {
+    .popup-close_rules {
+      top: -1115px; } }
 
 .star {
   display: -webkit-inline-box;
@@ -1316,6 +1344,10 @@ td {
     .popup-bet__content {
       width: 400px;
       padding: 25px; } }
+  @media screen and (max-width: 480px) {
+    .popup-bet__content {
+      width: 300px;
+      padding: 20px; } }
 
 .popup-bet__top {
   font-size: 18px;
@@ -1340,6 +1372,9 @@ td {
     .popup-bet__desc {
       font-size: 14px;
       text-align: left; } }
+  @media screen and (max-width: 480px) {
+    .popup-bet__desc {
+      font-size: 12px; } }
 
 .popup-bet__text_mark {
   text-decoration: underline;
@@ -1359,3 +1394,7 @@ td {
     .popup-close-bet {
       top: -265px;
       right: -177px; } }
+  @media screen and (max-width: 480px) {
+    .popup-close-bet {
+      top: -245px;
+      right: -125px; } }

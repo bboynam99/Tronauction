@@ -34,6 +34,11 @@
         width: 400px;
         padding: 25px;
     }
+
+    @include phones() {
+        width: 300px;
+        padding: 20px;
+    }
     
 }
 
@@ -67,6 +72,10 @@
         font-size: 14px;
         text-align: left;
     }
+
+    @include phones() {
+        font-size: 12px;
+    }
 }
 
 .popup-close {
@@ -79,6 +88,11 @@
     @include tablets() {
     top: -265px;
     right: -177px;
+    }
+
+    @include phones() {
+        top: -245px;
+        right: -125px;
     }
 }
 
@@ -145,6 +159,12 @@
     margin-top: -80%;
     }
 
+    @include phones() {
+        width: 300px;
+        padding: 20px;
+        margin-top: -170%;
+    }
+
 
 }
 
@@ -174,6 +194,10 @@
         margin-top: 0px;
     }
 
+    @include phones() {
+        font-size: 12px;
+    }
+
 
 }
 
@@ -184,6 +208,10 @@
 
     @include tablets() {
         top: -1465px;
+    }
+
+    @include phones() {
+        top: -1115px;
     }
 
 
@@ -244,6 +272,11 @@
         width: 400px;
         padding: 25px;
     }
+
+    @include phones() {
+        width: 300px;
+        padding: 20px;
+    }
     
 }
 
@@ -274,6 +307,10 @@
         font-size: 14px;
         text-align: left;
     }
+
+    @include phones() {
+        font-size: 12px;
+    }
 }
 
 
@@ -297,5 +334,10 @@
     @include tablets() {
     top: -265px;
     right: -177px;
+    }
+
+    @include phones() {
+        top: -245px;
+        right: -125px;
     }
 }
