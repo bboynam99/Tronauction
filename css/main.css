@@ -157,8 +157,7 @@ button {
         padding: 5px; } }
   @media screen and (max-width: 768px) {
     .btn-referr {
-      font-size: 10px;
-      padding: 2px; } }
+      font-size: 10px; } }
 
 .btn-login {
   display: -webkit-box;
@@ -1239,7 +1238,7 @@ td {
     .popup-rules__content {
       width: 550px;
       padding: 25px;
-      margin-top: -160%; } }
+      margin-top: -155%; } }
   @media screen and (max-width: 583px) {
     .popup-rules__content {
       width: 430px; } }
@@ -1286,7 +1285,7 @@ td {
       right: -190px; } }
   @media screen and (max-width: 480px) {
     .popup-close_rules {
-      top: -772px;
+      top: -775px;
       right: -143px; } }
 
 .star {
