@@ -7,10 +7,7 @@
     background-image: linear-gradient(to right, #b70fd8, #5631e2);
     transition-duration: .2s;
 
-    @include tablets() {
-      width: 30px;
-      height: 30px;
-    }
+    
 }
 
 .btn-rules {
@@ -24,8 +21,10 @@ letter-spacing: 1.7px;
 font-size: 12px;
 font-weight: 500;
 margin-right: 16px;
-transition-duration: .27s;
 -moz-backface-visibility: hidden;
+border: transparent;
+box-sizing: border-box;
+transition-duration: .2s;
 
   &:hover {
     border: 2px solid #b70fd8;
@@ -36,6 +35,7 @@ transition-duration: .27s;
   @include tablets() {
     font-size: 10px;
     padding: 8px;
+    margin-right: 4px;
   }
 }
 
@@ -46,8 +46,10 @@ transition-duration: .27s;
     letter-spacing: 1.7px;
     text-transform: uppercase;
     text-decoration: none;
-    transition-duration: .27s;
     -moz-backface-visibility: hidden;
+    box-sizing: border-box;
+    border: transparent;
+    transition-duration: .2s;
 
     &:hover {
       border: 2px solid #b70fd8;
@@ -76,22 +78,30 @@ transition-duration: .27s;
     background: url('../img/button-login.png') center center no-repeat;
     text-decoration: none;
 
-    &:hover {
-      background: none;
-      background-color: #48aeb8;
+
+    &:hover,
+    &:active {
+      background: rgba(210,249,250,1);
+      background: -moz-linear-gradient(top, rgba(210,249,250,1) 0%, rgba(59,219,219,1) 51%, rgba(204,252,255,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,249,250,1)), color-stop(51%, rgba(59,219,219,1)), color-stop(100%, rgba(204,252,255,1)));
+      background: -webkit-linear-gradient(top, rgba(210,249,250,1) 0%, rgba(59,219,219,1) 51%, rgba(204,252,255,1) 100%);
+      background: -o-linear-gradient(top, rgba(210,249,250,1) 0%, rgba(59,219,219,1) 51%, rgba(204,252,255,1) 100%);
+      background: -ms-linear-gradient(top, rgba(210,249,250,1) 0%, rgba(59,219,219,1) 51%, rgba(204,252,255,1) 100%);
+      background: linear-gradient(to bottom, rgba(210,249,250,1) 0%, rgba(59,219,219,1) 51%, rgba(204,252,255,1) 100%);
       border-radius: 35px;
     }
 
-    &:active {
-      background: none;
-      background-color: #b70fd8;
-      border-radius: 35px;
-    }
 
     @media screen and (max-width: 950px) {
-      background: none;
-      background-color: #9ce0e6;
+      background: rgba(196,242,245,1);
+      background: -moz-linear-gradient(top, rgba(196,242,245,1) 0%, rgba(88,206,214,1) 50%, rgba(120,211,219,1) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(196,242,245,1)), color-stop(50%, rgba(88,206,214,1)), color-stop(100%, rgba(120,211,219,1)));
+      background: -webkit-linear-gradient(top, rgba(196,242,245,1) 0%, rgba(88,206,214,1) 50%, rgba(120,211,219,1) 100%);
+      background: -o-linear-gradient(top, rgba(196,242,245,1) 0%, rgba(88,206,214,1) 50%, rgba(120,211,219,1) 100%);
+      background: -ms-linear-gradient(top, rgba(196,242,245,1) 0%, rgba(88,206,214,1) 50%, rgba(120,211,219,1) 100%);
+      background: linear-gradient(to bottom, rgba(196,242,245,1) 0%, rgba(88,206,214,1) 50%, rgba(120,211,219,1) 100%);
       border-radius: 35px;
+      border: 0.7px solid #0a0813;
     }
 
     @include tablets() {
@@ -174,6 +184,7 @@ transition-duration: .27s;
 .btn-bet-non-active {
   text-align: center;
   line-height: 1.2;
+  padding: 11px;
 
 }
 

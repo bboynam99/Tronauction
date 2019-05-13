@@ -130,11 +130,22 @@
 
     margin-top: -10%;
 
+
+    @media screen and (max-width: 1030px) {
+        margin-top: -70%;
+    }
+
+    @media screen and (max-width: 950px) {
+        margin-top: -138%;
+    }
+
     @include tablets() {
     width: 400px;
     padding: 25px;
     margin-top: -80%;
     }
+
+
 }
 
 .popup-rules__top {
@@ -169,9 +180,13 @@
 .popup-close_rules {
     top: -1085px;
 
+
+
     @include tablets() {
         top: -1465px;
     }
+
+
 }
 
 .star {
@@ -188,4 +203,99 @@
 
 .paragraph {
     margin-bottom: 2%;
+}
+
+// BET
+
+.popup-bet {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .51);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+
+
+    &_active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+.popup-bet__content {
+    background-color: #321250;
+    width: 755px;
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include tablets() {
+        width: 400px;
+        padding: 25px;
+    }
+    
+}
+
+.popup-bet__top {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 28px;
+
+    @include tablets() {
+        margin-bottom: 15px;
+    }
+}
+
+
+.popup-bet__desc {
+    max-width: 584px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 27px;
+    line-height: 2em;
+
+    @include tablets() {
+        font-size: 14px;
+        text-align: left;
+    }
+}
+
+
+.popup-bet__text_mark {
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+.popup__mark {
+    font-weight: bold;
+}
+
+.popup-close-bet {
+    position: relative;
+    cursor: pointer;
+
+    top: -220px;
+    right: -356px;
+
+    @include tablets() {
+    top: -265px;
+    right: -177px;
+    }
 }

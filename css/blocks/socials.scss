@@ -24,8 +24,8 @@
     }
 
     @include tablets() {
-        width: 30px;
-        height: 30px;
+        width: 34px;
+        height: 34px;
     }
 }
 
@@ -34,10 +34,10 @@
     height: 20px;
     display: block;
     background: url('../img/telegram-icon.png') center center no-repeat;
+    background-size: 100%;
 
     @include tablets() {
-        width: 15px;
-        height: 15px;
+
     }
 }
 
@@ -46,10 +46,10 @@
     height: 20px;
     display: block;
     background: url('../img/twitter-icon.png') center center no-repeat;
+    background-size: 100%;
 
     @include tablets() {
-        width: 15px;
-        height: 15px;
+
     }
 
 }

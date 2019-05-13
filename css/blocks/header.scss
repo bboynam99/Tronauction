@@ -5,12 +5,12 @@
     position: relative;
     z-index: 10;
 
-    @include tablets() {
+    @include phones() {
         justify-content: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 }
 
@@ -19,12 +19,16 @@
     align-items: center;
 
     @include tablets() {
-        
+        margin-bottom: 2%;
     }
 }
 
 .header__rules {
     margin-right: 13px;
+    
+    @include tablets() {
+        margin-right: 4px;
+    }
 }
 
 .header__main-img {
@@ -43,11 +47,16 @@
         width: 100%;
     }
 
+
+
   
 }
 
 .logo-pic {
     width: 100%;
+    @media screen and (max-width: 610px) {
+        width: 80%;
+    } 
 }
 
 .header__features {
