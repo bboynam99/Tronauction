@@ -226,12 +226,36 @@
     }
 
     @include phones() {
-        top: -787px;
+        top: -778px;
         right: -138px;
     }
 
-    @media only screen and (max-width : 320px) {
+    @media only screen and (max-width : 351px) {
+        top: -781px;
+        right: -141px;
+    }
+
+    @media only screen and (max-width : 350px) {
+        top: -782px;
+    }
+
+    @media only screen and (max-width : 313px) {
         top: -810px;
+        right: -134px;
+    }
+
+    @media only screen and (max-width: 293px) {
+        top: -825px;
+        right: -118px;
+    }
+
+    @media only screen and (max-width: 275px) {
+        top: -836px;
+        right: -103px;
+    }
+
+    @media only screen and (max-width: 240px) {
+        display: none;
     }
 
 
