@@ -1281,6 +1281,9 @@ td {
   @media screen and (max-width: 768px) {
     .popup-close_rules {
       top: -1465px; } }
+  @media screen and (max-width: 480px) {
+    .popup-close_rules {
+      top: -1665px; } }
 
 .star {
   display: -webkit-inline-box;
