@@ -162,7 +162,7 @@
     @include phones() {
         width: 300px;
         padding: 20px;
-        margin-top: -170%;
+        margin-top: -190%;
     }
 
 
@@ -210,9 +210,6 @@
         top: -1465px;
     }
 
-    @include phones() {
-        top: -1665px;
-    }
 
 
 
